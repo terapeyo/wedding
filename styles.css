@@ -10,9 +10,9 @@ body {
     margin-left: 2.5in; /* This sets the left margin to 10.5 inches */ 
     margin-right: 2.5in; /* This sets the right margin to 0.5 inches */ }
 
-/* Header and Navigation */
+/* Header and Navigation */ 
 header {
-    background-color: #007BFF; /* Blue background for the navbar */
+    background-color: #007BFF; /* Blue , now more teal, background for the navbar */
     color: white;
     padding: 10px 0;
 }
