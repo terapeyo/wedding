@@ -30,7 +30,7 @@ nav {
     }
 
         nav ul li {
-            margin: 0 20px;
+            margin: 0 10p;
         }
 
             nav ul li a {
@@ -77,16 +77,16 @@ main {
     border-radius: 50%; /* Make the image circular */
 }
 
-/* Header and Navigation */
+/* Header and Navigation ,,
 header {
-    background-color: #029096; /* Blue background for the navbar */
+    background-color: #029096; /* Blue background for the navbar ,,
     color: white;
     padding: 10px 0;
 }
 
 nav {
     display: flex;
-    justify-content: center; /* Center the navigation items */
+    justify-content: center; /* Center the navigation items ,,
 }
 
     nav ul {
@@ -106,9 +106,40 @@ nav {
                 font-weight: bold;
                 font-size: 18px;
                 padding: 8px 16px;
-                border-radius: 5px; /* Rounded corners */
+                border-radius: 5px; /* Rounded corners ,,
                 transition: background-color 0.3s, color 0.3s;
             }
 
                 nav ul li a:hover {
-                    background-color: #0056b3; /* Darker blue for hover effect */
+                    background-color: #0056b3; /* Darker blue for hover effect ,,
+                }
+
+*/
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 8px 0;
+    }
+    
+    nav ul li a {
+        font-size: 14px;
+        padding: 10px 12px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .intro-container {
+        flex-direction: column;
+    }
+    
+    main {
+        padding: 10px;
+    }
+}
