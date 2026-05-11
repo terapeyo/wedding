@@ -1,0 +1,116 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/*
+.container { 
+    margin-left: 2.5in; /* This sets the left margin to 10.5 inches */ 
+    margin-right: 2.5in; /* This sets the right margin to 0.5 inches */ }
+*/
+
+/* Header and Navigation */
+header {
+    background-color: #007BFF; /* Blue background for the navbar */
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 18px;
+                padding: 8px 16px;
+                border-radius: 5px; /* Rounded corners */
+                transition: background-color 0.3s, color 0.3s;
+            }
+
+                nav ul li a:hover {
+                    background-color: #0056b3; /* Darker blue for hover effect */
+                    color: #fff; /* Text color stays white */
+                }
+
+/* Main content styling */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Introduction section styling */
+.intro-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Space between text and image */
+    gap: 20px; /* Add space between text and image */
+}
+
+.intro-text {
+    flex: 1; /* Text takes available space */
+}
+
+.intro-image {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.profile-image {
+    display: block; /* Make sure it's not inline */
+    width: 150px; /* Adjust the width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+}
+
+/* Header and Navigation */
+header {
+    background-color: #007BFF; /* Blue background for the navbar */
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 18px;
+                padding: 8px 16px;
+                border-radius: 5px; /* Rounded corners */
+                transition: background-color 0.3s, color 0.3s;
+            }
+
+                nav ul li a:hover {
+                    background-color: #0056b3; /* Darker blue for hover effect */
