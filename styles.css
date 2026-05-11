@@ -82,17 +82,19 @@ main {
 /* Mobile responsive design */
 @media (max-width: 768px) {
     nav ul {
-        flex-wrap: wrap;
-        flex-direction: column;
+        flex-wrap: wrap;  /* Keep this - allows wrapping to next line */
+        /* Remove flex-direction: column; */
     }
     
     nav ul li {
         margin: 8px 0;
+        flex: 1 1 auto;  /* Add this - allows items to shrink/grow */
+        min-width: 80px;  /* Add this - ensures minimum width for legibility */
     }
     
     nav ul li a {
         font-size: 14px;
-        padding: 10px 12px;
+        padding: 10px 8px;  /* Reduce padding slightly */
         display: block;
         width: 100%;
         text-align: center;
